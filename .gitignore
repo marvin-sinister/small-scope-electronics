@@ -1,0 +1,11 @@
+# For PCBs designed using KiCAD: http://www.kicad-pcb.org/
+# Temporary files
+*.000
+*.bak
+*.kicad_pcb-bak
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+
+# Ploted files
+*.ps

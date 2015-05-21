@@ -1,0 +1,290 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 21 May 2015 08:46:13 AM CEST
+
+BeginCmp
+TimeStamp = /5559FF74;
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559FF83;
+Reference = C2;
+ValeurCmp = 1u;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55584BF3;
+Reference = C3;
+ValeurCmp = 1n;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558747E;
+Reference = C4;
+ValeurCmp = 1n;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B9E0F;
+Reference = C5;
+ValeurCmp = 16.9p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B9E3C;
+Reference = C6;
+ValeurCmp = 10p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B9E1E;
+Reference = C7;
+ValeurCmp = 135p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B9E2D;
+Reference = C8;
+ValeurCmp = 270p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555C2C66;
+Reference = C9;
+ValeurCmp = 270p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555A096C;
+Reference = D1;
+ValeurCmp = 5.1V;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /555A0DBD;
+Reference = D2;
+ValeurCmp = 5.1V;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /555D8275;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /555D84A4;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /555C1CBD;
+Reference = JP1;
+ValeurCmp = VDD SRC;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /555C1CB1;
+Reference = JP2;
+ValeurCmp = AC/DC;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /555C1CB7;
+Reference = JP3;
+ValeurCmp = THR SRC;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /555C2DBE;
+Reference = JP4;
+ValeurCmp = ATT SEL;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /555C1943;
+Reference = P1;
+ValeurCmp = BNC;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55584D1E;
+Reference = P2;
+ValeurCmp = AREF;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /555D8266;
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AEADF;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AEE0B;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AEAEE;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AEE11;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AEAFD;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AEB1B;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AEAC1;
+Reference = R8;
+ValeurCmp = 1k8;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /555A097B;
+Reference = R9;
+ValeurCmp = 220;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /555A0DB0;
+Reference = R10;
+ValeurCmp = 220;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /555BAB46;
+Reference = R11;
+ValeurCmp = 50;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B9DE2;
+Reference = R12;
+ValeurCmp = 800k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B9DF1;
+Reference = R13;
+ValeurCmp = 100k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /555B9E00;
+Reference = R14;
+ValeurCmp = 50k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /555C2B8C;
+Reference = R15;
+ValeurCmp = 50k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /555D849E;
+Reference = R16;
+ValeurCmp = 220;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555D76B6;
+Reference = R17;
+ValeurCmp = 10k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555D76A7;
+Reference = R18;
+ValeurCmp = 10k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AF36D;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AFA89;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /555C197B;
+Reference = SW1;
+ValeurCmp = STAT DIS;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /540AEA76;
+Reference = U1;
+ValeurCmp = LM324N;
+IdModule  = DIP-14__300_ELL;
+EndCmp
+
+EndListe
