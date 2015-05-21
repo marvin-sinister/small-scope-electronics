@@ -29,6 +29,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:custom-modules
+LIBS:arduino-modules
+LIBS:arduino_shields
 LIBS:small-scope-cache
 EELAYER 27 0
 EELAYER END
@@ -293,17 +296,6 @@ F 2 "" H 3000 2800 60  0000 C CNN
 F 3 "" H 3000 2800 60  0000 C CNN
 	1    3000 2800
 	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR010
-U 1 1 540AFB8D
-P 850 3450
-F 0 "#PWR010" H 850 3450 30  0001 C CNN
-F 1 "GND" H 850 3380 30  0001 C CNN
-F 2 "" H 850 3450 60  0000 C CNN
-F 3 "" H 850 3450 60  0000 C CNN
-	1    850  3450
-	0    1    1    0   
 $EndComp
 Text Label 1000 3800 2    60   ~ 0
 SIG_UC
@@ -1084,15 +1076,6 @@ Text Notes 5000 7650 0    60   ~ 0
 UNUSED OP AMP
 Wire Wire Line
 	2900 2800 3000 2800
-Wire Wire Line
-	950  3500 1000 3500
-Wire Wire Line
-	950  3400 950  3500
-Wire Wire Line
-	950  3400 1000 3400
-Wire Wire Line
-	950  3450 850  3450
-Connection ~ 950  3450
 Text Label 2900 2900 0    60   ~ 0
 ERR_LED
 Text Label 2900 3000 0    60   ~ 0
@@ -1235,4 +1218,6 @@ Text Notes 1300 6050 0    60   ~ 0
 LEDS
 Text Label 7450 2350 2    60   ~ 0
 2.5V
+NoConn ~ 1000 3400
+NoConn ~ 1000 3500
 $EndSCHEMATC
