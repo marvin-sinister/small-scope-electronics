@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 21 May 2015 06:09:45 PM CEST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 11 Jul 2015 10:28:14 AM CEST
 
 BeginCmp
 TimeStamp = /5559FF74;
@@ -64,6 +64,20 @@ IdModule  = C1;
 EndCmp
 
 BeginCmp
+TimeStamp = /55A0CC2C;
+Reference = C10;
+ValeurCmp = 10u/35V;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A0CC26;
+Reference = C11;
+ValeurCmp = 10u;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
 TimeStamp = /555A096C;
 Reference = D1;
 ValeurCmp = 5.1V;
@@ -101,7 +115,7 @@ EndCmp
 BeginCmp
 TimeStamp = /555C1CB1;
 Reference = JP2;
-ValeurCmp = AC/DC;
+ValeurCmp = DC BIAS;
 IdModule  = SIL-3;
 EndCmp
 
@@ -117,6 +131,13 @@ TimeStamp = /555C2DBE;
 Reference = JP4;
 ValeurCmp = ATT SEL;
 IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A0CC8A;
+Reference = JP5;
+ValeurCmp = AC/DC;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
@@ -148,9 +169,9 @@ IdModule  = R4-LARGE_PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /540AEE0B;
+TimeStamp = /55A0CC1A;
 Reference = R3;
-ValeurCmp = 1k;
+ValeurCmp = 10k;
 IdModule  = R1;
 EndCmp
 
@@ -162,9 +183,9 @@ IdModule  = R1;
 EndCmp
 
 BeginCmp
-TimeStamp = /540AEE11;
+TimeStamp = /55A0CC20;
 Reference = R5;
-ValeurCmp = 1k;
+ValeurCmp = 10k;
 IdModule  = R1;
 EndCmp
 
@@ -260,8 +281,22 @@ IdModule  = R1;
 EndCmp
 
 BeginCmp
+TimeStamp = /55A0CC32;
+Reference = R19;
+ValeurCmp = 10k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
 TimeStamp = /540AF36D;
 Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A0C5CA;
+Reference = RV2;
 ValeurCmp = 10k;
 IdModule  = SIL-3;
 EndCmp
