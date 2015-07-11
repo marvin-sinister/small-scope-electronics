@@ -3,6 +3,8 @@
 *.000
 *.bak
 *.kicad_pcb-bak
+*.lst
+*.svg
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
