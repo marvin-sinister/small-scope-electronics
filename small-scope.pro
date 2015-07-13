@@ -1,4 +1,4 @@
-update=Sat 06 Sep 2014 02:19:20 PM CEST
+update=Mon 13 Jul 2015 11:18:08 AM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -52,12 +52,12 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=scope.net
+LastNetListRead=small-scope.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=2.000000000000
+PadDrillOvalY=2.000000000000
+PadSizeH=4.000000000000
+PadSizeV=4.000000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -88,3 +88,5 @@ LibName14=valves
 LibName15=/home/zem/Documents/Electronics/kicad-libs/arduino-modules
 LibName16=/home/zem/Documents/Electronics/kicad-libs/custom-modules
 LibName17=/home/zem/Documents/Electronics/kicad-mods/arduino_shields
+LibName18=/home/marvin/Documents/Electronics/kicad-libs/arduino-modules
+LibName19=/home/marvin/Documents/Electronics/kicad-mods/arduino_shields

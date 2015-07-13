@@ -29,9 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:custom-modules
-LIBS:arduino-modules
-LIBS:arduino_shields
 LIBS:small-scope-cache
 EELAYER 27 0
 EELAYER END
@@ -39,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "small scope"
-Date "11 jul 2015"
+Date "13 jul 2015"
 Rev ""
 Comp "Sinister Bureau"
 Comment1 "Marvin Sinister"
@@ -1181,8 +1178,6 @@ Text Notes 1300 6050 0    60   ~ 0
 LEDS
 Text Label 8000 2350 0    60   ~ 0
 BIAS
-NoConn ~ 1000 3400
-NoConn ~ 1000 3500
 $Comp
 L POT RV2
 U 1 1 55A0C5CA
@@ -1349,4 +1344,30 @@ Text Notes 4850 2700 0    60   ~ 0
 AC/DC
 Wire Wire Line
 	5050 7200 5050 7250
+$Comp
+L GND #PWR?
+U 1 1 55A3B3C7
+P 950 3400
+F 0 "#PWR?" H 950 3400 30  0001 C CNN
+F 1 "GND" H 950 3330 30  0001 C CNN
+F 2 "" H 950 3400 60  0000 C CNN
+F 3 "" H 950 3400 60  0000 C CNN
+	1    950  3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  3400 1000 3400
+$Comp
+L GND #PWR?
+U 1 1 55A3B494
+P 950 3500
+F 0 "#PWR?" H 950 3500 30  0001 C CNN
+F 1 "GND" H 950 3430 30  0001 C CNN
+F 2 "" H 950 3500 60  0000 C CNN
+F 3 "" H 950 3500 60  0000 C CNN
+	1    950  3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  3500 1000 3500
 $EndSCHEMATC
